@@ -1,0 +1,28 @@
+{"level":"info","message":[{"location":"body","msg":"Task can't be empty","param":"task","value":""}]}
+{"level":"info","message":"User Registered Successfully"}{"level":"error","message":"Incorrect Credentials"}
+{"level":"info","message":"User Logged In Successfully"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"error","message":[{"location":"body","msg":"Task can't be empty","param":"task","value":""}]}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Added Successfully"}
+{"level":"info","message":"User Registered Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Updated Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Updated Successfully"}
+{"level":"info","message":"User Logged In Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"GetUser: User Fetched Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Added Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Added Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Added Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Added Successfully"}
+{"level":"info","message":"User Fetched Successfully"}
+{"level":"info","message":"Task Fetched Successfully"}
