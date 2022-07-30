@@ -1,0 +1,238 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ToDo List",
+    "dateExported": "2022-07-30T18:50:14.149Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8f109f3d-5461-4481-8b05-b3f6f12d4655",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Fetch All Tasks by User",
+            "url": "http://localhost:8001/api/todo/fetchtask",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-07-30T18:40:13.150Z",
+            "modified": "2022-07-30T18:40:13.150Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTZkMTY2NDkwMTE0MjQ0ZTE0NzcwIn0sImlhdCI6MTY1OTIwMzI2N30.f_pnnbrTb00nTDSnWh6PJZnmrRh9CmbS0pgnsQQYURk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0063e31d-d67e-4567-bca0-93f10664f4f6",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Add New Task",
+            "url": "http://localhost:8001/api/todo/addtask",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2022-07-30T18:40:36.699Z",
+            "modified": "2022-07-30T18:40:36.699Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTZkMTY2NDkwMTE0MjQ0ZTE0NzcwIn0sImlhdCI6MTY1OTIwMzI2N30.f_pnnbrTb00nTDSnWh6PJZnmrRh9CmbS0pgnsQQYURk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"task\": \"Task4\",\n    \"hours\": \"00\",\n    \"minutes\": \"00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "72faa9ba-c278-468a-898a-690b3d7d6bff",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Delete Task",
+            "url": "http://localhost:8001/api/todo/deletetask/62e5701a4bd881ded8ac5ebc",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2022-07-30T18:40:48.924Z",
+            "modified": "2022-07-30T18:40:48.924Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTZkMTY2NDkwMTE0MjQ0ZTE0NzcwIn0sImlhdCI6MTY1OTIwMzI2N30.f_pnnbrTb00nTDSnWh6PJZnmrRh9CmbS0pgnsQQYURk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"task\": \"Task 5 Allotted Now\",\n    \"time\": \"05:00:02 P.M\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f8625811-44a5-4bcf-a00c-a063ac78d285",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Update Task",
+            "url": "http://localhost:8001/api/todo/updatetask/62e5701a4bd881ded8ac5ebc",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2022-07-30T18:40:53.213Z",
+            "modified": "2022-07-30T18:40:53.213Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTZkMTY2NDkwMTE0MjQ0ZTE0NzcwIn0sImlhdCI6MTY1OTIwMzI2N30.f_pnnbrTb00nTDSnWh6PJZnmrRh9CmbS0pgnsQQYURk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"task\": \"Updated Task\",\n    \"hours\": \"22\",\n    \"minutes\": \"59\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b7c8cfca-d2ae-47cb-bad8-826289dad0af",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Add New User",
+            "url": "http://localhost:8001/api/auth/signup",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2022-07-30T18:41:07.771Z",
+            "modified": "2022-07-30T18:41:07.771Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"user2\",\n    \"email\": \"user2@gmail.com\",\n    \"password\": \"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bf61ade6-a916-45ff-ab30-344a4876aabe",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://localhost:8001/api/auth/updateuser",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2022-07-30T18:41:13.669Z",
+            "modified": "2022-07-30T18:41:13.669Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTIyNTdjZDljZDVjNjIwM2UwZWMzIn0sImlhdCI6MTY1OTE4MzcwM30.MSblo6ZtQ4aFR6GLRIIzrXArt_okfjd6Z2hm7S9En-4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Updated Name\",\n    \"email\": \"updated@gmail.com\",\n    \"password\": \"11223344\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4477b555-8b48-4ae1-85cd-7e34efb7a24f",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Get User",
+            "url": "http://localhost:8001/api/auth/getuser",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2022-07-30T18:41:18.121Z",
+            "modified": "2022-07-30T18:41:18.121Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTZkMTY2NDkwMTE0MjQ0ZTE0NzcwIn0sImlhdCI6MTY1OTIwNDA2MH0.ZZR2O1DC4_XSnJRX9ivlXneBN6dkppLnD1d7ERxRlxM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "387db786-3d70-4d7b-a616-4142b85c5e04",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:8001/api/auth/login",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2022-07-30T18:41:23.484Z",
+            "modified": "2022-07-30T18:41:23.484Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\": \"user1@gmail.com\",\n    \"password\": \"12345678\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ab04b336-da49-471f-b45a-441a1b793c4a",
+            "colId": "bab6cd3c-468e-4f5d-8459-d1a610a5bb00",
+            "containerId": "",
+            "name": "Delete User",
+            "url": "http://localhost:8001/api/auth/deleteuser",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2022-07-30T18:41:55.373Z",
+            "modified": "2022-07-30T18:41:55.373Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjJlNTcwMzQ0YmQ4ODFkZWQ4YWM1ZWJlIn0sImlhdCI6MTY1OTIwMzYzNn0.J0Un9gPwvkSJu8zOSajzz0acc1bT1adpe_AUG33Jjm0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
